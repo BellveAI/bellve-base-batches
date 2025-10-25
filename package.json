@@ -1,0 +1,33 @@
+{
+  "name": "bellve-buildathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bellve MVP Vault System - Base Batches Buildathon Submission",
+  "author": "Bellve",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "contracts:build": "cd contracts && make build",
+    "contracts:test": "cd contracts && make test",
+    "contracts:deploy": "cd contracts && make deploy",
+    "indexer:gen": "cd indexer && pnpm gen",
+    "indexer:build": "cd indexer && pnpm build",
+    "indexer:test": "cd indexer && pnpm test",
+    "demo:dev": "cd demo && pnpm dev",
+    "demo:build": "cd demo && pnpm build",
+    "scripts:deploy": "cd scripts && pnpm deploy",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}
+

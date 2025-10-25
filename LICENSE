@@ -1,0 +1,41 @@
+Copyright © 2025 Bellve. All rights reserved.
+
+PROPRIETARY LICENSE - EVALUATION ONLY
+
+This software and associated documentation files (the "Software") are the proprietary 
+and confidential property of Bellve.
+
+TERMS AND CONDITIONS:
+
+1. RESTRICTED ACCESS: This repository is distributed privately for evaluation purposes 
+   only in connection with the Base Batches Buildathon.
+
+2. NO REDISTRIBUTION: Redistribution, sharing, or public disclosure of this Software, 
+   in whole or in part, in source code or binary form, is strictly prohibited without 
+   prior written consent from Bellve.
+
+3. TESTNET USE ONLY: This Software is designed and intended solely for deployment on 
+   the Base Sepolia testnet. Any deployment to mainnet or production environments is 
+   expressly forbidden.
+
+4. NO WARRANTY: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+5. NO LIABILITY: IN NO EVENT SHALL BELLVE BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT 
+   OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+6. PROTOTYPE STATUS: This is a prototype/proof-of-concept system. Implementation 
+   details are subject to change without notice. There is no guarantee of future 
+   development, support, or production deployment.
+
+7. NO INCENTIVES: Use of this Software does not create any expectation of profit, 
+   token allocation, incentive, or reward. This is provided strictly for testing, 
+   experimentation, and hackathon review purposes.
+
+8. CONTACT: For permission requests or inquiries, contact: [legal@bellve.io]
+
+By accessing or using this Software, you acknowledge that you have read, understood, 
+and agree to be bound by these terms.
+

@@ -1,0 +1,20 @@
+{
+  "name": "bellve-buildathon-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deployment and utility scripts for Bellve Buildathon",
+  "scripts": {
+    "deploy": "tsx deploy.ts",
+    "verify": "tsx verify.ts",
+    "generate-abis": "tsx generate-abis.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6"
+  }
+}
+

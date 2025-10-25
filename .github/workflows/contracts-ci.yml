@@ -1,0 +1,52 @@
+name: Contracts CI - Bellve Buildathon (TESTNET ONLY)
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'contracts/**'
+      - '.github/workflows/contracts-ci.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'contracts/**'
+
+jobs:
+  test:
+    name: Test Contracts
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: nightly
+      
+      - name: Show Foundry version
+        run: forge --version
+      
+      - name: Install dependencies
+        working-directory: contracts
+        run: forge install
+      
+      - name: Check formatting
+        working-directory: contracts
+        run: forge fmt --check
+      
+      - name: Build contracts
+        working-directory: contracts
+        run: forge build --sizes
+      
+      - name: Run tests
+        working-directory: contracts
+        run: forge test -vvv
+      
+      - name: Gas snapshot
+        working-directory: contracts
+        run: forge snapshot --check
+

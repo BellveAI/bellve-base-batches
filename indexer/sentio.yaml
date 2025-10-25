@@ -1,0 +1,7 @@
+project: bellve/buildathon
+processors:
+  - path: ./src/processor.ts
+networkOverrides:
+  - chain: "84532"
+    host: https://sepolia.base.org
+
