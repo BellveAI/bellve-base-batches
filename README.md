@@ -1,7 +1,5 @@
 # Bellve MVP Vault System - Base Batches Buildathon
 
-A production-ready monorepo showcasing an innovative asynchronous batching system for DeFi vaults on Base Sepolia.
-
 ---
 
 ## ⚠️ **CRITICAL TESTNET-ONLY DISCLAIMERS** ⚠️
