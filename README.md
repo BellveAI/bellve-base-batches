@@ -328,9 +328,6 @@ For questions about this buildathon submission:
 - **Email**: admin@bellve.com
 - **Twitter**: @bellve_ai
 
-For licensing inquiries:
-- **Email**: legal@bellve.io
-
 ---
 
 **Built with ❤️ for Base Batches Buildathon**
