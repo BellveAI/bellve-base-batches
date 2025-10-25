@@ -327,8 +327,8 @@ Redistribution requires prior written consent from Bellve.
 ## Contact
 
 For questions about this buildathon submission:
-- **Email**: buildathon@bellve.io
-- **Twitter**: @BellveProtocol
+- **Email**: jl@bellve.io
+- **Twitter**: @bellve_ai
 
 For licensing inquiries:
 - **Email**: legal@bellve.io
